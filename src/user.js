@@ -1,7 +1,7 @@
 import GUN from 'gun';
 import 'gun/sea';
 import 'gun/axe';
-import { writeable } from 'svelte/store';
+import { writable } from 'svelte/store';
 
 // Database
 export const db = GUN();
